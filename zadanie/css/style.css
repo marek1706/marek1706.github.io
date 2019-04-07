@@ -1,0 +1,48 @@
+
+
+
+body { 
+    background-color: #213b50;
+    color:white;
+    margin: 10px 10px
+    ;   
+}
+form { 
+    width: 46%;
+    background-color:  #213b50;
+    padding:2%;
+
+}
+
+input, textarea,select {
+    border: 1px solid  #213b50;
+    background-color: #2b4a64;
+    padding:4px;
+    color:#fff;
+}
+
+textarea{
+    height: 120px;
+}
+
+input[type=text],
+input[type=email],
+input[type=phone],
+
+textarea {
+    display:block;
+    
+}
+
+select {
+    background-color: #4e708c;
+}
+input[type="submit"]{
+font-size: 14px;
+background-color: green;
+color:
+
+}
+input[type="masage"]{
+    background-color: white;
+}

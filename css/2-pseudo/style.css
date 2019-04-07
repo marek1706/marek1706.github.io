@@ -11,3 +11,41 @@
 .akapit::first-line {
     color: brown
 }
+
+/* ***************************** */
+
+.cusomer-list_item {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.cusomer-list_item:first-child {
+    color: lime;
+    font-size: 30px;
+}
+
+.cusomer-list_item:nth-child(6) {
+    color: black;
+}
+
+.cusomer-list_item:nth-child(3n+5){
+    color: darkgreen;
+    text-decoration: underline;
+    text-decoration-color: red
+}
+
+
+/* ************************** */
+
+input:focus {
+    border: : 1px solid red;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+button:active {
+    background-color: gold;
+}
