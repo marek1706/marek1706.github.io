@@ -1,0 +1,17 @@
+.outer {
+    width: 400;
+    height: 400;
+    border: 8px solid #666360;
+    background: #a6a9b6;
+    position: relative;
+}
+
+.inner {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background: #e4e4e4;
+    
+}

@@ -1,0 +1,46 @@
+
+body { 
+    background-color: gray;
+    color:white;
+    margin: 10px 10px
+    ;   
+}
+form { 
+    width: 46%;
+    background-color: gray;
+    padding:2%;
+
+}
+
+input, textarea,select {
+    border: 1px solid  black;
+    background-color:yellowgreen ;
+    padding:4px;
+    color:#fff;
+}
+
+textarea{
+    height: 120px;
+}
+
+input[type=text],
+input[type=email],
+input[type=phone],
+
+textarea {
+    display:block;
+    
+}
+
+select {
+    background-color: goldenrod;
+}
+input[type="submit"]{
+font-size: 14px;
+background-color: green;
+color:
+
+}
+input[type="masage"]{
+    background-color: white;
+}
