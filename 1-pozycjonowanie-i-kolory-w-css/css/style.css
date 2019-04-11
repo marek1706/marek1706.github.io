@@ -3,8 +3,6 @@
 
 
 .kwadrat1 {
-    width: 200px;
-    height: 200px;
     background: red;  
 }
 
@@ -16,53 +14,36 @@ div#kolo1 {
 
 
 .kwadrat2 {
-    width: 200px;
-    height: 200px;
     background:blue;
-    position: relative;
     top: -200px;
     left: 200px;
     margin-left: 3px;   
 }
-div#kolo2 {
-    position:relative;
-}
+
 
 .kwadrat3 {
-    width: 200px;
-    height: 200px;
     background:green;
-    position: relative;
     top: -400px;
     left: 400px;
     margin-left: 6px;
 }
 
 .kwadrat4 {
-    width: 200px;
-    height: 200px;
     background:yellow;
-    position: relative;
     top: -400px;
     left: 0px;
     margin-top: 3px;  
 }
 
 .kwadrat5 {
-    width: 200px;
-    height: 200px;
     background:black;
-    position: relative;
     top: -600px;
     left: 200px;
     margin-left: 3px;
 }
 
 .kwadrat6 {
-    width: 200px;
-    height: 200px;
     background:#ffc400d3;
-    position: relative;
     top: -800px;
     left: 400px;
     margin-left: 6px;
@@ -70,145 +51,81 @@ div#kolo2 {
 }
 
 .kwadrat7 {
-    width: 200px;
-    height: 200px;
     background:purple;
-    position: relative;
     top: -800px;
     left: 0px;
     margin-top:3px;
 }
 
 .kwadrat8 {
-    width: 200px;
-    height: 200px;
     background:gray;
-    position: relative;
     top: -1000px;
     left: 200px;
     margin-left:3px;
 }
 
 .kwadrat9 {
-    width: 200px;
-    height: 200px;
     background:pink;
-    position: relative;
     top: -1200px;
     left: 400px;
     margin-left:6px;
 }
 
-    
+   .kwadrat {
+    width: 200px;
+    height: 200px;
+    position: relative;
+   } 
 
 .kolo1 {
-    height: 100px;
-    width:100px;
-    border-style: 1px solid black;
-    border-radius: 50%;
     background-color:pink;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
-    
-
-
-    
-    
-    
-  
 }
 
 
 .kolo2 {
-    height: 100px;
-    width:100px;
-    border-style: solid black;
-    border-radius: 50%;
     background-color: gray;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
-
-    
-
-    
-
 }
 
 .kolo3 {
-    height: 100px;
-    width:100px;
-    border-radius: 50%;
     background-color: purple;
-    border-style: solid black;
-    border-radius: 50%;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
-}
-
-.kolo4 {
-    height: 100px;
-    width:100px;
-    border-radius: 50%;
-    background-color: green;
-    border-style: solid black;
-    border-radius: 50%;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
-}
-
-.kolo5 {
-    height: 100px;
-    width:100px;
-    border-radius: 50%;
-    background-color:red;
-    border-style: solid black;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
-}
-
-.kolo6 {
-    height: 100px;
-    width:100px;
-    border-radius: 50%;
-    background-color: blue;
-    border-style: solid black;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
-
-}
-
-.kolo7 {
-    height: 100px;
-    width:100px;
-    border-radius: 50%;
-    background-color:#ffc400d3;
-    border-style: solid black;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
-
-}
-
-.kolo8 {
-    height: 100px;
-    width:100px;
-    border-radius: 50%;
-    background-color:yellow;
-    border-style: solid black;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
-}
-
-.kolo9 {
-    height: 100px;
-    width:100px;
-    border-radius: 50%;
-    background-color:black;
-    border-style: solid black;
-    margin-left: 25%;
-    transform:translate(6%, 50% );
     
 }
 
+.kolo4 {
+    background-color: green;
+    
+}
 
+.kolo5 {
+    background-color:red;
+    
+}
+
+.kolo6 {
+    background-color: blue;
+}
+
+.kolo7 {
+    background-color:#ffc400d3;
+    
+}
+
+.kolo8 {
+    background-color:yellow;
+    
+}
+
+.kolo9 {
+    background-color:black;  
+}
+
+.kolo {
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    border-style: solid black;
+    margin-left: 25%;
+    transform:translate(6%, 50% );
+}
 
 
