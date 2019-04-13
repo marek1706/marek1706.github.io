@@ -1,0 +1,9 @@
+#strawberry {
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+#strawberry-right {
+    float: right;
+}
