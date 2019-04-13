@@ -26,6 +26,6 @@
 
 #auto {
     color: darkmagenta;
-    overflow: scroll;
-    
+    overflow: auto;
+
 }
