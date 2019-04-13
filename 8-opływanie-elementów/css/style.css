@@ -7,3 +7,12 @@
 #strawberry-right {
     float: right;
 }
+#strowberry {
+    float:none;
+}
+
+p:last-child {
+    background-color: yellow;
+    clear:both;
+}
+

@@ -1,0 +1,21 @@
+#background-img {
+    background-color: lightblue;
+    background-image: url("../img/truskawka.jpg");
+    background-repeat: no-repeat;
+    
+    /* background-position: 50px 200px; pozycja ustalona */
+   
+    /* background-position: top center;ustawia centralnie u góry */
+    background-size: cover;
+    /* background-size: 30% 30%;określa wielkość */
+
+    /* background-size: contain;cały obrazek jest automatycznie przeskalowany żeby sie zmieścił */
+
+/* background-size: cover;rozciągnie się na całość */
+background-attachment: fixed;
+/* background-attachment: fixed;pozwala na pozostanie obrazka w miejscu a tekst się przesuwa */
+
+
+
+
+}
