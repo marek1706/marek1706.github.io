@@ -1,0 +1,31 @@
+.box {
+    width: 300px;
+    height: 150px;
+    border: 1px solid red;
+    margin: 60px;
+
+}
+
+#visible {
+    overflow:visible;
+    color: green;
+}
+/* overflow:visible; domyślnie wymienia  */
+
+#hidden {
+    color: deeppink;
+    overflow: hidden;
+    /*overflow: hidden;ukrywa treść wystajacą poza ramkę  */
+}
+
+#scroll {
+    color: blue;
+    overflow: scroll;
+    /* overflow: scroll;pozwala przewijać tekst w ramce */
+}
+
+#auto {
+    color: darkmagenta;
+    overflow: scroll;
+    
+}
