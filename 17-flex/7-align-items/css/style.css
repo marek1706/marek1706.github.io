@@ -39,10 +39,10 @@ Domyślne kolory 'flex-item' - END
     Wszystkie elementy ukladają się względem poziomej 
     osi we własnej linii (wierszu) :)
 */
-    align-items: stretch;    
-/*    align-items: center;*/
-/*    align-items: flex-start;*/
-/*    align-items: flex-end;*/
+    /* align-items: stretch;     */
+   align-items: center;
+   /* align-items: flex-start; */
+   /* align-items: flex-end; */
 /*    align-items: baseline*/
 
 }

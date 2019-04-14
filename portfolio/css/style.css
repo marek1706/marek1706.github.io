@@ -1,0 +1,41 @@
+header {
+    background-color: white;
+    background-image: url("../img/header.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+h1 {
+    color: #007bff;
+    padding: 10px;
+    margin: 3px;
+    flex-basis: center;
+
+}
+
+hr {
+    border: 1px solid #007bff;
+    width: 25%;
+}
+
+h2 {
+    color:black;
+    padding: 10px;
+    margin: 3px;
+}
+
+span {
+    color: #007bff;
+}
+
+buttom {
+    color:black;
+    padding:10px;
+    margin: 3px;
+    border:1px solid #007bff;
+}
