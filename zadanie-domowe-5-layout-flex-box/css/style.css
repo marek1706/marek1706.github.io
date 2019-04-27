@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    display: block;
+}
+
+header {
+    background-color:orangered;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.main {
+    background-color:turquoise;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-content: center;
+    color:white;
+}
+
+.aside-1  {
+    background-color:green;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    color:white;
+}
+
+.aside-2 {
+    background-color:pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    color:white;
+}
+
+#div {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* flex-flow: row wrap; */
+}
+
+footer {
+    background-color:purple;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+
+    
+}
+@media all and (max-width: 768px) {
+    .box {
+        width: 50%;
+        }
+    }
+
+@media  all and (min-width: 768px) and (max-width :992px) {
+   .box {
+    width:75%;
+    /* display: block; */
+    }
+    .aside-2 {
+        /* flex-direction: row; */
+        align-self:flex-end;
+    }
+
+   }
+
+@media all and (min-width: 992px) {
+    .box {
+     width:100%;
+    }
+    .main, .aside-1, .aside-2 {
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
