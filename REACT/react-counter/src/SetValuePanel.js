@@ -1,4 +1,4 @@
-import React, {component} from 'react';
+import React, {Component} from 'react';
 
 // funkcyjnie
 // import React from 'react';
@@ -26,7 +26,7 @@ class setValuePanel extends Component {
         return (
             <div className="set-value-panel">
         <input type="number" ref={input => this.objInput = input}/>
-        <button onClick={()=>{this.setNewValue()}}>Ustaw</button>;
+        <button onClick={()=>{this.setNewValue()}}>Ustaw</button>
         </div>
     
         )};
