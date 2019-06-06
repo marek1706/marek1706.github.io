@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ButtonPanel from './ButtonPanel';
 import SetValuePanel from './SetValuePanel';
+import SetStepPanel from './SetStepPanel';
 
 class Counter extends Component {
 
@@ -10,7 +11,7 @@ class Counter extends Component {
 
         this.state = {
             counterValue: this.props.initValue
-        }
+        };
     }
 
     initValue = () => {
@@ -33,9 +34,34 @@ class Counter extends Component {
         });
     };
 
-    setValue = (newValue) => {
+    setValue = newValue => {
         this.setState({counterValue: newValue});
     }
+
+    setStepValue = newStep => {
+        console.log(newStep);
+        this.setState({stepValue: newStep});
+
+    };
+
+    valuePlusTrzy = () => {
+        console.log("dodaj trzy");
+        this.setState(prevValue => {
+            return {
+                counterValue: prevValue.counterValue +3
+            };
+        })
+    }
+
+    nextStep = () => {
+        console.log("Zwiększ o X");
+        this.setState((prevValue, stepValue) => {
+            return {
+                counterValue: prevValue.counterValue + this.state.stepValue
+            }
+        })
+    };
+
 
   render() {
       console.log(this);
@@ -44,9 +70,21 @@ class Counter extends Component {
 
           Licznik: {this.state.counterValue}
         
-            <ButtonPanel changeCounterValue={this.changeValue} clearCounter={this.clearValue} initValue={this.initValue} />
+            <ButtonPanel 
+            changeCounterValue={this.changeValue} 
+            clearCounter={this.clearValue} 
+            initValue={this.initValue}
+            plustrzy={this.valuePlusTrzy}
+            nextStep={this.nextStep}
+            setName={this.setName} />
+
+            <br/>
 
             <SetValuePanel setCounter={this.setValue}/>
+
+            Krok: {this.state.stepValue}
+
+            <SetStepPanel setStep={this.setStepValue}/>
 
         </div>
         );

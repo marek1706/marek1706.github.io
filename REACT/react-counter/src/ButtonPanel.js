@@ -6,6 +6,8 @@ const ButtonPanel = (props) => {
         <button onClick={props.changeCounterValue}>Dodaj 1</button>
         <button onClick={props.clearCounter}>Zeruj</button>
         <button onClick={props.initValue}>Przywróć stan</button>
+        <button onClick={props.plustrzy}>Dodaj trzy</button>
+        <button onClick={props.nextStep}>Zwiększ o X</button>
     </div>);
 }
  

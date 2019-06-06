@@ -16,8 +16,7 @@ class App extends Component {
       <Heading headingText="Aplikacja Counter"/>
       <Counter initValue={33} />
 
-      <Heading headingText="Aplikacja Counter wersja 2"/>
-      <Counter initValue={105} />
+     
       
     </div>
   );
